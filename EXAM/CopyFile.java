@@ -11,6 +11,8 @@ public class CopyFile
 		i=Fin.read();
 		do
 		 {
+		 i=fin.read();
+		 if(i!=-1)
 		 Fout.write(i);
 		}
 		 while(i!=0);
